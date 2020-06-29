@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>COVID-19</title>
+  <link rel="stylesheet" href="css/Reg.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" style="font-size: 20px;" target="_blank" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">COVID-19</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav" style="float: left;">
+          <li class="active"><a href="index.html" style="font-size: 17px;">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-size: 17px;">About COVID<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="prevention.html" style="font-size: 16px;">prevention</a></li>
+              <li><a href="symptoms.html" style="font-size: 16px;">Symptoms</a></li>
+              <li><a href="Overview.html" style="font-size: 16px;">Overview</a></li>
+
+            </ul>
+          </li>
+          <li><a href="help.html" style="font-size: 17px;">Help And Support</a>
+            <li><a href="Registration.html" style="font-size: 17px;">Registration</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container register-form" action="connect.php" method="post">
+              <div class="form" style="margin-top: 50px;">
+                  <div class="note">
+                      <p>TO JOIN OUR COMMUNITY PLEASE REGISTER HERE</p>
+                  </div>
+
+                  <div class="form-content">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="form-group" >
+                                  <input type="text" class="form-control" placeholder="Your Name *" name="name" value=""/>
+                              </div>
+                              <div class="form-group">
+                                  <input type="text" class="form-control" placeholder="Phone Number *" name="number" value=""/>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="form-group">
+                                  <input type="text" class="form-control" placeholder="Your Password *" name="password" value=""/>
+                              </div>
+                              <div class="form-group">
+                                  <input type="text" class="form-control" placeholder="Confirm Password *"  value=""/>
+                              </div>
+                          </div>
+                      </div>
+                      <button type="button" class="btnSubmit">Submit</button>
+                  </div>
+              </div>
+          </div>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </body>
+  </html>
